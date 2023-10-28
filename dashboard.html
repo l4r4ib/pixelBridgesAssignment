@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <title> Dashboard | Decentralized Perpetual Exchange</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <button id="toggleSidebar" class="toggle-button">☰</button>
+        <div class="nav-links">
+            <button id="closeSidebar" class="close-button">×</button>
+            <div class="logo">
+                <img src="./assets/logo.png" alt="Logo" />
+                <span class="company-name">Romi.Finance</span>
+            </div>
+            <!-- Navigation links -->
+            <div class="anchor-tags">
+                <a href="index.html">Home</a>
+                <a href="dashboard.html">Dashboard</a>
+                <a href="#">NFT</a>
+                <a href="earn.html">Earn</a>
+                <a href="#">Buy</a>
+                <a href="#">Referrals</a>
+                <a href="#">Ecosystem</a>
+                <a href="#">About</a>
+            </div>
+        </div>
+        <div class="navbar-buttons">
+            <button class="green-btn">Trade</button>
+            <button class="black-btn wallet-btn"> <img src="./assets/Connect Wallet.png" /> Connect <span> Wallet</span></button>
+            <button class="black-btn wallet-btn"> <img src="./assets/Ethereum.png"> <span class="border-line"></span> <img src="./assets/dots.png"> </button>
+          </div>
+        <!-- end of navbar-->
+    </div>
+    <div class="data-container">
+        <div class="page-title">
+            <span>Stats</span> <img src="./assets/Etherium.png">
+        </div>
+        <div class="page-description">
+            <span>Ethereum Total Stats start from 06 Jan 2022. <br>
+                For detailed stats:</span>
+        </div>
+        <div class="card-container">
+            <div class="card">
+                <h2>Overview</h2>
+                <hr>
+                <div class="card-row">
+                    <div class="label">AUM</div>
+                    <div class="value">$33</div>
+                </div>
+                <div class="card-row">
+                    <div class="label">$ZLP Pool</div>
+                    <div class="value">$33</div>
+                </div>
+                <div class="card-row">
+                    <div class="label">24h Volume</div>
+                    <div class="value">$0</div>
+                </div>
+                <div class="card-row">
+                    <div class="label">Long Positions</div>
+                    <div class="value">$0</div>
+                </div>
+                <div class="card-row">
+                    <div class="label">Short Positions</div>
+                    <div class="value">$0</div>
+                </div>
+            </div>
+
+            <div class="card">
+                <h2>Total Stats</h2>
+                <hr>
+                <div class="card-row">
+                    <div class="label">Total Fees</div>
+                    <div class="value">$0</div>
+                </div>
+                <div class="card-row">
+                    <div class="label">Total Volume</div>
+                    <div class="value">$0</div>
+                </div>
+                <div class="card-row">
+                    <div class="label">Floor Price Fund</div>
+                    <div class="value">$617,860</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="page-title">
+            <span>Tokens</span> <img src="./assets/Etherium.png">
+        </div>
+        <div class="page-description">
+            <span>Platform and $ZLP index tokens.</span>
+        </div>
+        <div class="card-container">
+            <div class="graph-card">
+                <div class="data">
+                    <div class="head">
+                        <img src="./assets/romi.png" alt="Logo">
+                        <span>$ROMI</span> <img src="./assets/dropdown.png" alt="dropdown" class="dropdown-logo">
+                    </div>
+                    <hr>
+                    <div class="card-row">
+                        <div class="label">Price</div>
+                        <div class="value">$0.00</div>
+                    </div>
+                    <div class="card-row">
+                        <div class="label">Supply</div>
+                        <div class="value">10,000 $ROMI</div>
+                    </div>
+                    <div class="card-row">
+                        <div class="label">Total Staked</div>
+                        <div class="value">$0</div>
+                    </div>
+                    <div class="card-row">
+                        <div class="label">Market Cap</div>
+                        <div class="value">$10</div>
+                    </div>
+                </div>
+                <div class="graph">
+                    <img src="./assets/distribution.png" alt="Graph">
+                </div>
+            </div>
+
+            <div class="graph-card">
+                <div class="data">
+                    <div class="head">
+                        <img src="./assets/zlp.png" alt="Logo">
+                        <span>$ZLP</span> <img src="./assets/dropdown.png" alt="dropdown" class="dropdown-logo" >
+                    </div>
+                    <hr>
+                    <div class="card-row">
+                        <div class="label">Price</div>
+                        <div class="value">$1.133</div>
+                    </div>
+                    <div class="card-row">
+                        <div class="label">Supply</div>
+                        <div class="value">29 $ZLP</div>
+                    </div>
+                    <div class="card-row">
+                        <div class="label">Total Staked</div>
+                        <div class="value">$33</div>
+                    </div>
+                    <div class="card-row">
+                        <div class="label">Market Cap</div>
+                        <div class="value">$33</div>
+                    </div>
+                    <div class="card-row">
+                        <div class="label">Stablecoin Percentage</div>
+                        <div class="value">49.50%</div>
+                    </div>
+                </div>
+                <div class="graph">
+                    <img src="./assets/pool.png" alt="Graph">
+                </div>
+            </div>
+        </div>
+        <div class="table-card">
+            <div class="table-title">
+                <span>$ZLP Index Composition</span> <img src="./assets/Etherium.png">
+            </div>
+            <hr>
+            <table>
+              <tr>
+                <th>TOKEN</th>
+                <th>PRICE</th>
+                <th>POOL</th>
+                <th>WEIGHT</th>
+                <th class="column5">UTILIZATION</th>
+              </tr>
+              <tr>
+                <td class="column1"><img src="/assets/ETH.png" alt=""> Ethereum <img src="/assets/dropdown.png" alt=""> </td>
+                <td>$1,780.24</td>
+                <td>$19</td>
+                <td>50.49% / 25.00%</td>
+                <td class="column5">0.00%</td>
+              </tr>
+              <tr>
+                <td class="column1"><img src="/assets/WBTC.png" alt=""> Wrapped Bitcoin <img src="/assets/dropdown.png" alt=""> </td>
+                <td>$33,793.34</td>
+                <td>$0</td>
+                <td>0.00% / 25.00%</td>
+                <td class="column5">0.00%</td>
+              </tr>
+              <tr>
+                <td class="column1"><img src="/assets/APE.png" alt=""> ApeCoin <img src="/assets/dropdown.png" alt=""> </td>
+                <td>$1.29</td>
+                <td>$0</td>
+                <td>0.00% / 25.00%</td>
+                <td class="column5">0.00%</td>
+              </tr>
+              <tr>
+                <td class="column1"><img src="/assets/USDC.png" alt=""> USD Coin<img src="/assets/dropdown.png" alt=""> </td>
+                <td>$1.00</td>
+                <td>$14</td>
+                <td>49.50% / 25.00%</td>
+                <td class="column5">0.00%</td>
+              </tr>
+            </table>
+          </div>
+    </div>
+
+    <footer>
+        <!-- First div -->
+        <div class="footer-logo">
+          <img src="./assets/logo.png" alt="Company Logo">
+          <span>Romi Finance</span>
+        </div>
+    
+        <!-- Second div -->
+        <div class="footer-logos">
+          <a class="social-link" href="#"><img src="./assets/Twitter.png" alt="Twitter"></a>
+          <a class="social-link" href="#"><img src="./assets/Medium.png" alt="Medium"></a>
+          <a class="social-link" href="#"><img src="./assets/Github.png" alt="Github"></a>
+          <a class="social-link" href="#"><img src="./assets/Telegram.png" alt="Telegram"></a>
+          <a class="social-link" href="#"><img src="./assets/Discord.png" alt="Discord"></a>
+        </div>
+    
+        <!-- Third div -->
+        <div class="footer-links">
+          <a href="#">Term & Condition</a>
+          <a href="#">Referral Terms</a>
+          <a href="#">Media Kit</a>
+        </div>
+      </footer>
+
+</body>
+<script src="app.js"></script>
+
+</html>
